@@ -4,7 +4,7 @@
 //         console.log(i)
 //     }
 // }
-// Hollywood();
+// Hollywood(); // !! condsider more useful function names
 // Ex 2*****************************************
 // let question=prompt('what is your first name')
 // let question2=prompt('What is your last name')
@@ -40,12 +40,13 @@
 let number = 1
 let number2 = 2
 let number3 = 3
- let sum= number+number2+number3
+let sum = number + number2 + number3
 function sumof3numbers() {
     return (number + number2 + number3)
-        console.log(`the sum of ${number}${number2}${number3} is ${sum}`)
-    }
     console.log(`the sum of ${number}${number2}${number3} is ${sum}`)
+}
+// !! : this console log it outside of your function
+console.log(`the sum of ${number}${number2}${number3} is ${sum}`)
 
 sumof3numbers()
 
